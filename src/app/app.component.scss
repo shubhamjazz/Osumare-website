@@ -1,0 +1,141 @@
+.header-post{
+    display: flex;
+    padding: 8px 80px 0px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.rounded-pill{
+   background-color: white;
+   font-weight: bold;
+   font-size: 15px;
+   color: black;
+   padding: 10px 30px;
+   border-radius: 50px;
+}
+
+.head{
+    color: #000C1A;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 72px; /* 150% */
+}
+#highlight{
+    color: #0078FF;
+}
+.head2{
+    font-family: "Open Sans";
+    font-size: large;   
+}
+.btn1{
+   background-color: #0078FF;
+   font-weight: 700;
+   line-height: 30px;
+   font-size: 24px;
+   color: whitesmoke;
+   padding: 13px 130px;
+   border-radius: 50px;
+   border-color: #0078FF;
+}
+
+.focus{
+    line-height: 36px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.stepBox{
+    line-height: 36px;
+}
+.services{
+    padding: 50px 100px;
+    background-color: #F0F0F0;
+    text-align: center;
+}
+.stepBox1 
+{
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 7px;
+    box-shadow: inset;
+    text-align: center;
+}
+.stepBox1 h3
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.stepBox1 p 
+{
+    aspect-ratio: 4/2;
+    object-fit: contain;
+    color: gray;
+}
+
+.img1{
+    position: relative;
+    background-color: #F0F0F0;
+}
+
+.stepBox2{
+    display: flex;
+    flex-direction: row;
+    box-shadow: -2px 4px 32px 0px rgba(174, 172, 172, 0.6);
+}
+.without_box{
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 7px;
+    box-shadow: inset;
+    text-align: center;   
+}
+.without_box h3
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.head3{
+    font-family: "Open Sans";
+    font-size: large;
+    width: 894px;
+    height: 80px;
+    padding-left: 421px;
+    margin-bottom: 15px;   
+}
+ #grad1 {
+    height: 400px;
+    background: linear-gradient(45deg, lightblue 10%,white, white 75%, lightpink);
+}
+
+.card-body{
+    justify-content: left;
+}
+
+.menu{
+    width: 917px;
+    padding-left: 35px;
+    border-radius: 32px;
+    background: linear-gradient(262deg, rgba(0, 111, 237, 0.12) 18.01%, rgba(178, 214, 255, 0.12) 90.03%);
+    backdrop-filter: blur(250px);
+}
+.word{
+    color: #333;
+    justify-content: left;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+    color: #333;
+}
+.social{
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
