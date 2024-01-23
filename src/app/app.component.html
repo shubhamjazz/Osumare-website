@@ -1,3 +1,10 @@
+<div [ngClass]="isDarktheme ? 'define-dark-theme' : 'define-light-theme'">
+  <mat-card>
+<section>
+  <div class="container text-center">
+        <mat-slide-toggle (click)="toggleTheme()">Dark Mode</mat-slide-toggle>  
+  </div>
+</section>
 <section>
   <div class="header-post">
     <div class="wow animate__animated animate__fadeInLeft">
@@ -367,3 +374,5 @@
 <section class="container-fluid text-center wow animate__animated animate__tada">
   <p>&copy; 2023 Osumare. All rights reserved</p>
 </section>
+</mat-card>
+</div>
